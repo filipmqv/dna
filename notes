@@ -1,0 +1,26 @@
+ISBH - elementy s¹ ró¿nej d³ugoœci przez co dodanie nowego elementu do wynikowego dna mo¿e 
+	nie zwiêkszyæ jego d³ugoœci np dna zakoñczone jest ...ACGTACGT a my wstawiamy 
+	kolejny elemet CGTAC 
+b³êdy pozytywne (czyli element ze spektrum móg³ wyst¹piæ mniej razy ni¿ to wynika z modelu), 
+model {0, 1, {2,3}, wiele}
+
+dane wejœciowe:
+- spektrum (pociête z pojedynczego stringa wg temperatur z przesuniêciem o 1; 
+	elementy z czego wynika te¿ ile ich jest; jeœli 3> to wiele)
+- d³ugoœæ koñcowego ³añcucha DNA n
+- temperatury oligo (dwie s¹siednie, zwykle 30 i 32 stopnie) - do pociêcia stringa na elementy
+- info który element ze spektrum jest pierwszy
+
+algorytm przeszukiwania grafu dfs, bfs, dyjkstra? inny?
+waga krawêdzi - o ile dodanie elementu do dna wyd³u¿y to dna?
+nie mo¿na zaklasyfikowaæ mniejszego, zawieraj¹cego siê w innym elementu jako odwiedzony
+	bo mo¿e on wyst¹piæ w innym miejscu samodzielnie i tam bêdzie potrzebny
+ró¿ne rodzaje ³uków:
+	czy ³uk prowadzi do elementu przesuniêtego o 1
+	czy tylko do elementu który siê zawiera w d³u¿szym elemencie (czy np wyd³u¿a rozwi¹zanie)
+	
+	
+	//----- przekszta³æ spektrum na graf (wierzcholki - elementy spektrum, 
+		//----- krawêdzie - przejœcie o 1 z wag¹ wyd³u¿enia koñcowego dna
+		
+		

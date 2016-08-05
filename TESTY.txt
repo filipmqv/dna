@@ -1,0 +1,24 @@
+d³ugoœæ
+temperatura
+liczba nowych elementów spektrum
+liczba powtórzeñ
+(10 ró¿nych stringów dla ka¿dego testu)
+10 * 10(d³) ró¿nych sekwencji
+
+
+element powtarzaj¹cy sie z ostatniej grupy (4,inf) zaczyna sekwencje
+5 powtórzeñ
+kilka po 2,3
+
+jeœli AF znalaz³ sekwencjê o mierze levensteina = 0, ale nie wyœwietla sie time_first_found (---) to znaczy, ¿e nie uzy³ wszystkich elementów i s¹ b³ krytyczne,choæ sekwencja sie zgadza
+
+pierwsze 5 pochodzi z '10 chromosomu ry¿u', drugie 5 jest losowe:
+
+jesli w EF w testach na b³Powtórzenia wychodzi ¿e alg sie skonczy³, ale nie ma wyniku- po prostu nie móg³ znaleŸæ rozwi¹zania bez naruszania b³Poz
+
+
+
+
+
+
+
